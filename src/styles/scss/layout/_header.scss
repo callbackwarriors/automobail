@@ -1,0 +1,19 @@
+.header {
+  @apply text-gray-600 font-bold;
+  &__container {
+    @apply container flex flex-wrap items-center justify-between p-5 mx-auto;
+    // &__logo {
+    //   @apply flex items-center hidden mb-4 font-medium text-gray-900 lg:block md:mb-0;
+    // }
+  }
+}
+.mobile-menu {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mobile-menu li a {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f1f1f1;
+}
