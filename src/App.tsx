@@ -1,17 +1,25 @@
+import Footer from "components/utilities/Footer";
 import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Header from "./components/utilities/Header";
+import Home from "./pages/Home/Home";
+import "./styles/globals.css";
+import "./styles/scss/main.scss";
 
 function App() {
   return (
-    <div className="text-red-400 text-center font-serif text-5xl">
-      <h1>Hello World</h1>
-      <p>Ei beta ki koros</p>
-      <h1 className="">Hello World</h1>
-      <h1>Hello World</h1>
-      <h1>Hello World</h1>
-      <h1>Hello World</h1>
-      <h1>Hello World</h1>
-      <h1>Hello World</h1>
-    </div>
+    <Router>
+      <Header />
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/home">
+          <Home />
+        </Route>
+      </Switch>
+      <Footer />
+    </Router>
   );
 }
 
