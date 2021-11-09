@@ -2,9 +2,34 @@
   @apply text-gray-600 font-bold;
   &__container {
     @apply container flex flex-wrap items-center justify-between p-5 mx-auto;
-    // &__logo {
-    //   @apply flex items-center hidden mb-4 font-medium text-gray-900 lg:block md:mb-0;
-    // }
+    &__logo {
+      @apply flex items-center hidden mb-4 font-medium text-gray-900 md:mb-0;
+    }
+    &__button {
+      @apply inline-block text-3xl;
+    }
+    &__drawer {
+      @apply p-3 overflow-hidden text-2xl text-right;
+    }
+
+    &__nav {
+      @apply flex flex-wrap items-center justify-center hidden text-base;
+      a {
+        @apply mr-5 hover:text-gray-900;
+      }
+    }
+    &__cart {
+      @apply relative inline-block mr-6;
+      a {
+        @apply text-xl;
+      }
+      &__number {
+        @apply flex absolute top-0 right-0 inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-red-100 transform;
+      }
+    }
+    &__login {
+      @apply inline-flex items-center px-3 py-1 text-base bg-gray-100 border-0 rounded focus:outline-none hover:bg-gray-200 md:mt-0 font-bold;
+    }
   }
 }
 .mobile-menu {

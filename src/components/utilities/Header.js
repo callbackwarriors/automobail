@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header__container">
-        <span className="flex items-center hidden mb-4 font-medium text-gray-900 lg:block md:mb-0">
+        <span className="header__container__logo lg:block ">
           <Link to="/">
             <a className="text-xl">
               <img src={Logo} alt="AUTOMOBILE" />
@@ -28,7 +28,7 @@ const Header = () => {
         </span>
 
         <button
-          className="inline-block text-3xl lg:hidden"
+          className="header__container__button lg:hidden"
           onClick={toggleDrawer}
         >
           <FiMenu />
@@ -36,48 +36,46 @@ const Header = () => {
         <Drawer open={isOpen} onClose={toggleDrawer} direction="left">
           <div
             onClick={toggleDrawer}
-            className="p-3 overflow-hidden text-2xl text-right close text-royal-blue"
+            className="eader__container__drawer close"
           >
             <AiOutlineCloseSquare className="float-right" />
           </div>
           <MobileMenu />
         </Drawer>
 
-        <nav className="flex flex-wrap items-center justify-center hidden text-base md:ml-auto md:mr-auto lg:block">
+        <nav className="header__container__nav md:ml-auto md:mr-auto lg:block">
           <Link to="/">
-            <a className="mr-5 hover:text-gray-900">Home</a>
+            <a>Home</a>
           </Link>
 
           <Link to="/courses">
-            <a className="mr-5 hover:text-gray-900">Service</a>
+            <a>Service</a>
           </Link>
           <Link to="/instractors">
-            <a className="mr-5 hover:text-gray-900">Contact</a>
+            <a>Contact</a>
           </Link>
 
           <Link to="/categories">
-            <a className="mr-5 hover:text-gray-900">Dashboard</a>
+            <a>Dashboard</a>
           </Link>
         </nav>
 
-        <span className="relative inline-block mr-6">
+        <span className="header__container__cart">
           <Link to="/cart">
             <a>
-              <span className="text-xl cart__ico">
+              <span className="">
                 <AiOutlineShoppingCart />
               </span>
             </a>
           </Link>
-          <span className="absolute top-0 right-0 inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-red-100 transform translate-x-1/2 -translate-y-1/2 rounded-full bg-royal-blue">
+          <span className="header__container__cart__number translate-x-1/2 -translate-y-1/2 rounded-full bg-royal-blue">
             0
           </span>
         </span>
 
         <Link to="/login">
           <a>
-            <button className="inline-flex items-center px-3 py-1 text-base bg-gray-100 border-0 rounded focus:outline-none hover:bg-gray-200 md:mt-0 font-bold">
-              Login
-            </button>
+            <button className="header__container__login">Login</button>
           </a>
         </Link>
       </div>
