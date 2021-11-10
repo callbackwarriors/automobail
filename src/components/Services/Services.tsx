@@ -1,45 +1,43 @@
-import Title from "components/utilities/Title";
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { AiOutlineHeart } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import img from "../../assets/images/car-repair (1).png";
 
 const Services = () => {
   return (
-    <section className="latest__courses section-padding">
-      <div className="container">
-        <Title
+    <section className="bg-blue-100 section-padding">
+      <div className="container mx-auto mb-6 text-center">
+        {/* <Title
           subtitle="What We Do"
           title="Services We Provide"
           description=""
-        />
+        /> */}
+        <p>What We Do</p>
+        <h2 className="text-4xl font-bold">Services We Provide</h2>
       </div>
+
       <div className="container mx-auto">
         <div className="flex flex-wrap">
           <div className="w-full px-2 mb-6 transition duration-100 ease-in-out transform xl:w-1/3 md:w-1/2 hover:scale-105">
             <Link to="/">
               <a>
                 <div className="p-6 bg-gray-100 rounded-lg">
-                  <div className="relative">
+                  <div>
                     <img
                       className="object-cover object-center w-full h-40 mb-6 rounded"
                       src={img}
                       alt=""
                     />
-                    <AiOutlineHeart className="absolute text-2xl top-3 right-3" />
                   </div>
 
-                  <h4 className="mb-2 text-2xl">
+                  <h4 className="mb-2 text-2xl font-bold">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </h4>
                   <p className="text-base leading-relaxed">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Autem, facere explicabo? Aliquam officia aut fuga dolorum
-                    voluptates architecto molestias tempora placeat cupiditate
-                    assumenda, ipsam aliquid praesentium vero! Nostrum sunt
-                    repudiandae ipsum asperiores eum dolore hic, temporibus
-                    cumque explicabo nam doloribus quas animi, officiis deserunt
-                    praesentium, quidem suscipit rem sit quam.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                    distinctio suscipit perspiciatis tempore ipsa amet quos
+                    ducimus eos quidem voluptates repellendus alias voluptas
+                    culpa nulla assumenda esse commodi, molestias dolorum.
                   </p>
                 </div>
               </a>
@@ -49,26 +47,22 @@ const Services = () => {
             <Link to="/">
               <a>
                 <div className="p-6 bg-gray-100 rounded-lg">
-                  <div className="relative">
+                  <div>
                     <img
                       className="object-cover object-center w-full h-40 mb-6 rounded"
                       src={img}
                       alt=""
                     />
-                    <AiOutlineHeart className="absolute text-2xl top-3 right-3" />
                   </div>
 
-                  <h4 className="mb-2 text-2xl">
+                  <h4 className="mb-2 text-2xl font-bold">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </h4>
                   <p className="text-base leading-relaxed">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Autem, facere explicabo? Aliquam officia aut fuga dolorum
-                    voluptates architecto molestias tempora placeat cupiditate
-                    assumenda, ipsam aliquid praesentium vero! Nostrum sunt
-                    repudiandae ipsum asperiores eum dolore hic, temporibus
-                    cumque explicabo nam doloribus quas animi, officiis deserunt
-                    praesentium, quidem suscipit rem sit quam.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                    distinctio suscipit perspiciatis tempore ipsa amet quos
+                    ducimus eos quidem voluptates repellendus alias voluptas
+                    culpa nulla assumenda esse commodi, molestias dolorum.
                   </p>
                 </div>
               </a>
@@ -78,26 +72,22 @@ const Services = () => {
             <Link to="/">
               <a>
                 <div className="p-6 bg-gray-100 rounded-lg">
-                  <div className="relative">
+                  <div>
                     <img
                       className="object-cover object-center w-full h-40 mb-6 rounded"
                       src={img}
                       alt=""
                     />
-                    <AiOutlineHeart className="absolute text-2xl top-3 right-3" />
                   </div>
 
-                  <h4 className="mb-2 text-2xl">
+                  <h4 className="mb-2 text-2xl font-bold">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </h4>
                   <p className="text-base leading-relaxed">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Autem, facere explicabo? Aliquam officia aut fuga dolorum
-                    voluptates architecto molestias tempora placeat cupiditate
-                    assumenda, ipsam aliquid praesentium vero! Nostrum sunt
-                    repudiandae ipsum asperiores eum dolore hic, temporibus
-                    cumque explicabo nam doloribus quas animi, officiis deserunt
-                    praesentium, quidem suscipit rem sit quam.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                    distinctio suscipit perspiciatis tempore ipsa amet quos
+                    ducimus eos quidem voluptates repellendus alias voluptas
+                    culpa nulla assumenda esse commodi, molestias dolorum.
                   </p>
                 </div>
               </a>
