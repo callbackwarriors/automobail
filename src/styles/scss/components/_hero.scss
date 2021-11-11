@@ -1,5 +1,5 @@
 .hero {
-  background-image: url(../../../assets/images/banner.jpg);
+  background-image: url(../../../assets/images/baner01.jpg);
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,9 +15,9 @@
     top: 0;
     width: 100%;
     right: 0;
-    // background-color: rgb(73, 67, 67);
+    // background-color: #1c183a91;
   }
-  //   &__style {
-  //     z-index: 1;
-  //   }
+  &__style {
+    @apply z-20;
+  }
 }
