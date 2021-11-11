@@ -37,6 +37,10 @@ const Services = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
                     distinctio suscipit perspiciatis tempore ipsa amet quos
                     ducimus eos quidem voluptates repellendus alias voluptas
+                    culpa nulla assumenda esse commodi, molestias dolorum. Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Non
+                    distinctio suscipit perspiciatis tempore ipsa amet quos
+                    ducimus eos quidem voluptates repellendus alias voluptas
                     culpa nulla assumenda esse commodi, molestias dolorum.
                   </p>
                 </div>
