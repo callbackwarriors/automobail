@@ -1,11 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { Link } from "react-router-dom";
-import img from "../../assets/images/car-repair (1).png";
 
 const Services = () => {
   return (
-    <section className="bg-blue-100 section-padding">
+    <section className=" section-padding">
       <div className="container mx-auto mb-6 text-center">
         {/* <Title
           subtitle="What We Do"
@@ -25,7 +24,7 @@ const Services = () => {
                   <div>
                     <img
                       className="object-cover object-center w-full h-40 mb-6 rounded"
-                      src={img}
+                      src="https://i.ibb.co/8833h2W/64620.jpg"
                       alt=""
                     />
                   </div>
@@ -36,12 +35,6 @@ const Services = () => {
                   <p className="text-base leading-relaxed">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
                     distinctio suscipit perspiciatis tempore ipsa amet quos
-                    ducimus eos quidem voluptates repellendus alias voluptas
-                    culpa nulla assumenda esse commodi, molestias dolorum. Lorem
-                    ipsum dolor sit amet consectetur adipisicing elit. Non
-                    distinctio suscipit perspiciatis tempore ipsa amet quos
-                    ducimus eos quidem voluptates repellendus alias voluptas
-                    culpa nulla assumenda esse commodi, molestias dolorum.
                   </p>
                 </div>
               </a>
@@ -54,7 +47,7 @@ const Services = () => {
                   <div>
                     <img
                       className="object-cover object-center w-full h-40 mb-6 rounded"
-                      src={img}
+                      src="https://i.ibb.co/Pc7B32c/43025.jpg"
                       alt=""
                     />
                   </div>
@@ -65,8 +58,6 @@ const Services = () => {
                   <p className="text-base leading-relaxed">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
                     distinctio suscipit perspiciatis tempore ipsa amet quos
-                    ducimus eos quidem voluptates repellendus alias voluptas
-                    culpa nulla assumenda esse commodi, molestias dolorum.
                   </p>
                 </div>
               </a>
@@ -79,7 +70,7 @@ const Services = () => {
                   <div>
                     <img
                       className="object-cover object-center w-full h-40 mb-6 rounded"
-                      src={img}
+                      src="https://i.ibb.co/8833h2W/64620.jpg"
                       alt=""
                     />
                   </div>
@@ -90,8 +81,6 @@ const Services = () => {
                   <p className="text-base leading-relaxed">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
                     distinctio suscipit perspiciatis tempore ipsa amet quos
-                    ducimus eos quidem voluptates repellendus alias voluptas
-                    culpa nulla assumenda esse commodi, molestias dolorum.
                   </p>
                 </div>
               </a>

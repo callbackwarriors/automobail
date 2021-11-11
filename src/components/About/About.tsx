@@ -15,7 +15,7 @@ const About = () => {
         <div className="w-full px-2 md:w-7/12">
           <img
             className="object-cover object-center w-full rounded h-3/6"
-            src="https://cdn.pixabay.com/photo/2020/05/08/08/49/wash-5144822_960_720.jpg"
+            src="https://i.ibb.co/Pc7B32c/43025.jpg"
             alt=""
           />
         </div>
