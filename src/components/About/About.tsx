@@ -1,12 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-  FaTwitter,
-} from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { MdTrendingFlat } from "react-icons/md";
 
 const About = () => {
   return (
@@ -19,7 +13,7 @@ const About = () => {
             alt=""
           />
         </div>
-        <div className="md:w-5/12">
+        <div className="text-justify md:w-5/12">
           <div>
             <p>About Our Company</p>
             <h4 className="mb-2 text-4xl font-bold">How We Can Help you</h4>
@@ -33,37 +27,9 @@ const About = () => {
             middle of text. All the Lorem Ipsum generators on the Internet tend
             to repeat predefined chunks as necessary,
           </p>
-
-          <ul className="social-icons ">
-            <li>
-              <Link to="">
-                <a target="_blank">
-                  <FaFacebookF className="text-white" />
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link to="">
-                <a target="_blank">
-                  <FaTwitter className="text-white" />
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link to="">
-                <a target="_blank">
-                  <FaLinkedinIn className="text-white" />
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link to="">
-                <a target="_blank">
-                  <FaInstagram className="text-white" />
-                </a>
-              </Link>
-            </li>
-          </ul>
+          <button className="flex items-center p-3 mt-6 font-semibold bg-blue-900 rounded-md text-blue-50 menu-list-item hover:bg-blue-700">
+            View More <MdTrendingFlat className="ml-2 text-2xl" />
+          </button>
         </div>
       </div>
     </div>

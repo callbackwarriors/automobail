@@ -1,4 +1,5 @@
 import React from "react";
+import { MdTrendingFlat } from "react-icons/md";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Hero = () => {
@@ -15,18 +16,19 @@ const Hero = () => {
           </div>
 
           <div className="w-full md:w-5/12 md:text-left">
-            <h2 className="text-6xl font-bold text-blue-900">
-              We Make Car <br />
-              Repair Hassle Free
-            </h2>
+            <h1 className="text-6xl font-bold text-blue-900">
+              Tuneup Your Car <br />
+              to Next Level
+            </h1>
             <br />
-            <p className="w-full text-gray-800 md:w-2/3 text-1xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui est
-              iure voluptatem laborum quisquam tempora.
+            <p className="w-full text-gray-800 text-1xl">
+              We believe in providing top quality workmanship and are <br />
+              so confident in our level of service that we back it up <br />
+              with a good quality.
             </p>{" "}
             <br />
-            <button className="flex p-3 font-semibold bg-blue-900 rounded-md text-blue-50 menu-list-item hover:bg-blue-700">
-              <a href="/">View More</a>
+            <button className="flex items-center p-3 font-semibold bg-blue-900 rounded-md text-blue-50 menu-list-item hover:bg-blue-700">
+              View Service <MdTrendingFlat className="ml-2 text-2xl" />
             </button>
           </div>
         </div>
