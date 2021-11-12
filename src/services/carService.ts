@@ -7,7 +7,7 @@ class CarService {
   }
 
   getServiceByID(id: string): Promise<IService> {
-    return requests.get(`/services/${id}`);
+    return requests.get(`/services/find/${id}`);
   }
 
   addService(body: {}): Promise<IService> {

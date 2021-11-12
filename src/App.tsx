@@ -1,3 +1,4 @@
+import ServiceDetails from "pages/ServiceDetails/ServiceDetails";
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home/Home";
@@ -14,9 +15,11 @@ function App() {
         <Route path="/home">
           <Home />
         </Route>
+        <Route path="/services/:id">
+          <ServiceDetails />
+        </Route>
       </Switch>
     </Router>
-
   );
 }
 

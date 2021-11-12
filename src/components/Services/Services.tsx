@@ -8,7 +8,7 @@ import { IService } from "type";
 
 const Services = () => {
   const { data, isLoading } = useAsync(carService.getServices);
-  console.log("data", data);
+
   return (
     <section className=" section-padding">
       <div className="container mx-auto mb-6 text-center">
