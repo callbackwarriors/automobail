@@ -1,26 +1,20 @@
 .footer {
-  &:before,
-  &:after {
-    content: "";
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    @apply hidden lg:block;
+  background-color: #73767a;
+  @apply text-white;
+  svg {
+    @apply text-4xl;
   }
 
-  .footer-bottom {
-    &__section-wrapper {
-      @apply flex justify-center;
+  &__top {
+    &__around {
+      @apply flex justify-between mt-8 mb-10 md:flex-row flex-col container mx-auto md:border-b py-20;
     }
   }
-  .footer-top {
+  .footer-middle {
     &__section {
-      @apply flex justify-around mt-8 mb-10 md:flex-row flex-col;
-
+      @apply flex justify-between mt-8 mb-10 md:flex-row flex-col;
       &--title {
-        @apply text-2xl  border-b py-2 font-medium tracking-wide border-gray-700;
+        @apply text-2xl  border-b py-2 font-medium tracking-wide border-white;
       }
 
       &--content {
@@ -33,10 +27,12 @@
         }
       }
     }
+
     &__social-icons {
       @apply flex mt-4;
+
       li {
-        @apply p-3 py-10 m-1 text-white bg-blue-900 shadow-lg;
+        @apply p-3 m-1 text-white bg-blue-900 shadow-lg rounded-full;
         &:hover {
           @apply bg-blue-800;
         }
@@ -46,40 +42,10 @@
       }
     }
   }
-  .news-wrap {
-    &__news-letter {
-      @apply p-2 border-gray-200 py-20;
-
-      &--section-wrapper {
-        @apply flex md:flex-row justify-between flex-col;
-
-        &--news-title {
-          @apply text-lg font-normal md:text-2xl sm:text-xl md:w-1/2 sm:w-auto w-auto px-2;
-        }
-
-        &--news-form {
-          @apply w-auto md:w-1/2;
-
-          form {
-            @apply w-full;
-
-            &--nf-list {
-              @apply flex items-center  border-b  py-2;
-
-              &--email {
-                @apply w-full md:w-1/2  text-lg  mr-3 py-1 px-2 rounded-lg mb-2 p-2;
-              }
-
-              &--submit {
-                @apply bg-white text-green-900 font-bold text-sm  border-4  py-1 px-2 rounded;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
   &__bottom {
     @apply py-12;
+    &__section-wrapper {
+      @apply flex justify-center;
+    }
   }
 }
